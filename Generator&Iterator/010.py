@@ -57,3 +57,5 @@ print(isinstance('abc', Iterator))
 ## 通过 iter() 函数可以把 list、dict、str 变成 Iterator
 print(isinstance(iter([]), Iterator))
 print(isinstance(iter('abc'), Iterator))
+
+

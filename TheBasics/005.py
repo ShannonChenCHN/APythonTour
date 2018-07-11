@@ -31,6 +31,14 @@ def custom_abs(x):
 print(custom_abs(-34))
 # print(custom_abs('dd'))
 
+### 函数可以嵌套定义
+def func(x, y):
+    def square(x):
+        return x * x
+    return square(x) + y
+
+print('嵌套函数：', func(3, 4))
+
 
 ### 空函数
 def nop():
@@ -49,3 +57,5 @@ print(x, y)
 
 targetPoint = move(100, 100, 60, math.pi / 6)
 print(targetPoint)
+
+
