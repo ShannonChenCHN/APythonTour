@@ -6,7 +6,7 @@ C -> Objective-C -> Swift -> C++ -> JavaScript -> Ruby -> Python* -> Java
 
 
 
-## Contents
+## 目录
 
 
 ### [一、Python 简介](https://github.com/ShannonChenCHN/APythonTour/issues/13)
@@ -80,7 +80,7 @@ C -> Objective-C -> Swift -> C++ -> JavaScript -> Ruby -> Python* -> Java
   
 
 
-## References
+## 参考
 - [编程零基础应当如何开始学习 Python？](https://www.zhihu.com/question/20039623)
 - [你是如何自学 Python 的？](https://www.zhihu.com/question/20702054)
 - [如何系统地自学 Python？](https://www.zhihu.com/question/29138020)
