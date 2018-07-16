@@ -1,42 +1,83 @@
 # APythonTour
-C, C++, JavaScript, Java, Ruby, Python
-
-> 注：我学习 Python 的目的是为了写一些使用的命令行工具。
-
-## Python 能干什么
-
-- 科学计算和数据分析
-- 爬虫
-- Web 网站、后台服务
-- 游戏
-- 命令行实用工具
+C -> Objective-C -> Swift -> C++ -> JavaScript -> Ruby -> Python* -> Java
 
 
-## 搭建环境
 
-- 安装 Python3
+## Contents
+
+
+### [一、Python 简介](https://github.com/ShannonChenCHN/APythonTour/issues/13)
+- 为什么要学 Python
+- Python 的语言特性
+- Python 的发展历史与版本
+- Python 官方文档及相关学习资料
+
+### [二、环境搭建](https://github.com/ShannonChenCHN/APythonTour/issues/2)
+- 安装 Python3 解释器
+  - 相关问题：如何升级 Mac 上的 Python 到最新
 - 安装 IDE
 
-## Hello World
+### 三、Python 基础语法
+- [3.1 Hello World ](https://github.com/ShannonChenCHN/APythonTour/issues/7)
+   - 输入输出
+   - 注释
+   - 缩进
+   - 编码规范
+      - [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
+- [3.2 数据类型和变量](https://github.com/ShannonChenCHN/APythonTour/issues/14)
+- [3.3 条件和循环](https://github.com/ShannonChenCHN/APythonTour/issues/15)
+- [3.4 函数](https://github.com/ShannonChenCHN/APythonTour/issues/3)
+- [3.5 高级特性](https://github.com/ShannonChenCHN/APythonTour/issues/4)
+- [3.6 函数式编程](https://github.com/ShannonChenCHN/APythonTour/issues/5)
+- [3.7 模块](https://github.com/ShannonChenCHN/APythonTour/issues/6)
+- [3.8 错误处理、调试和测试](https://github.com/ShannonChenCHN/APythonTour/issues/11)
+
+### 四、Python 高级编程
+
+- [4.1 面向对象编程](https://github.com/ShannonChenCHN/APythonTour/issues/8)
+- [4.2 面向对象高级编程](https://github.com/ShannonChenCHN/APythonTour/issues/9)
+- [4.3 IO 编程](https://github.com/ShannonChenCHN/APythonTour/issues/12)
+- [4.4 多线程编程](https://github.com/ShannonChenCHN/APythonTour/issues/10)
+- [4.5 网络编程](https://github.com/ShannonChenCHN/APythonTour/issues/16)
+- [4.6 数据库](https://github.com/ShannonChenCHN/APythonTour/issues/17)
+- [4.7 异步 IO](https://github.com/ShannonChenCHN/APythonTour/issues/18)
+
+
+### 五、库
+- [5.1 正则表达式](https://github.com/ShannonChenCHN/APythonTour/issues/19)
+- 5.2 日期和时间
+- 5.3 数字和数学计算
+- 5.4 文件和目录访问
+- 5.5 常用的第三方库
+  - Pillow
+  - requests
+  - SQLAlchemy
+  
+### 六、Web 开发
+- HTML、CSS 和 JavaScript
+- WSGI 接口
+- Web 框架的使用
+  - Django
+  - Flask
+- 使用模板
+- 实战
+
+### 七、爬虫
 
 
 
+### 八、机器学习
+- 库
+  - NumPy
+  - Matplotlib
+  - pandas
+  - TensorFlow
+  
 
-输入和输出
-
-```
-print("hello")
-```
-
-```
-input()
-```
-
-注释
+  
 
 
-
-## 参考资料
+## References
 - [编程零基础应当如何开始学习 Python？](https://www.zhihu.com/question/20039623)
 - [你是如何自学 Python 的？](https://www.zhihu.com/question/20702054)
 - [如何系统地自学 Python？](https://www.zhihu.com/question/29138020)
@@ -47,3 +88,4 @@ input()
 - [简明 Python 教程](https://github.com/ShannonChenCHN/APythonTour/blob/master/byte-of-python-chinese-edition.epub)（A Byte of Python）
 - [路人甲python总结](https://github.com/ShannonChenCHN/APythonTour/blob/master/%E8%B7%AF%E4%BA%BA%E7%94%B2python%E6%80%BB%E7%BB%93.docx)
 - [Python 官方文档](https://docs.python.org/3/)
+- 零基础学 Python 的目录（来自极客时间专栏）
