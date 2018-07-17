@@ -6,6 +6,9 @@
 '''
 
 
+'''
+序列化成 bytes
+'''
 import pickle, os
 
 # 序列化

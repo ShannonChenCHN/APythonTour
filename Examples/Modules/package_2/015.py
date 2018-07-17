@@ -1,9 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from  Modules.package_1.hello import test
+from  Examples.Modules.package_1 import hello
 
-test()
+hello.test()
 
 
 # 查看默认的模块搜索路径

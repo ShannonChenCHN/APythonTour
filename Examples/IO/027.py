@@ -60,6 +60,7 @@ print(os.path.split('/Users/michael/testdir/file.txt'))
 # 扩展名
 print(os.path.splitext('/path/to/file.txt'))
 
+# 查看当前目录下的文件列表
 
 print([x for x in os.listdir('.') if os.path.isdir(x)])
 
