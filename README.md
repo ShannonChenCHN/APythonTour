@@ -42,13 +42,15 @@
 - [4.6 数据库](https://github.com/ShannonChenCHN/APythonTour/issues/17)
 - [4.7 异步 IO](https://github.com/ShannonChenCHN/APythonTour/issues/18)
 
+### 五、内存管理
 
-### 五、库
-- [5.1 正则表达式](https://github.com/ShannonChenCHN/APythonTour/issues/19)
-- 5.2 日期和时间
-- 5.3 数字和数学计算
-- 5.4 文件和目录访问
-- 5.5 常用的第三方库
+
+### 六、库
+- [6.1 正则表达式](https://github.com/ShannonChenCHN/APythonTour/issues/19)
+- 6.2 日期和时间
+- 6.3 数字和数学计算
+- 6.4 文件和目录访问
+- 6.5 常用的第三方库
   - Pillow
   - requests
   - SQLAlchemy
@@ -75,7 +77,7 @@
   
 
   
-
+### 九、Python 在 iOS 开发中的应用
 
 ## 参考
 - [编程零基础应当如何开始学习 Python？](https://www.zhihu.com/question/20039623)
