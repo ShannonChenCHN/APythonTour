@@ -10,6 +10,10 @@ import os, time, random
 
 def long_time_task(name):
     print('Run task %s (%s)...' % (name, os.getpid()))
+    if name == 1: # 即使进程 1 挂掉了，其他进程还可以继续执行
+        l = [1, 2, 3, 4]
+        s = l[5]
+        print(s)
     start = time.time()
     time.sleep(random.random() * 3)
     end = time.time()
