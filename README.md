@@ -2,9 +2,6 @@
 
 # APythonTour
 
-C -> Objective-C -> Swift -> C++ -> JavaScript -> Ruby -> Python* -> Java
-
-
 
 ## 目录
 
