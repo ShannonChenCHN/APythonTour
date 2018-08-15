@@ -37,7 +37,7 @@
 - [4.1 面向对象编程](https://github.com/ShannonChenCHN/APythonTour/issues/8)
 - [4.2 面向对象高级编程](https://github.com/ShannonChenCHN/APythonTour/issues/9)
 - [4.3 IO 编程](https://github.com/ShannonChenCHN/APythonTour/issues/12)
-- [4.4 多线程编程](https://github.com/ShannonChenCHN/APythonTour/issues/10)
+- [4.4 并发编程](https://github.com/ShannonChenCHN/APythonTour/issues/10)
 - [4.5 网络编程](https://github.com/ShannonChenCHN/APythonTour/issues/16)
 - [4.6 数据库](https://github.com/ShannonChenCHN/APythonTour/issues/17)
 - [4.7 异步 IO](https://github.com/ShannonChenCHN/APythonTour/issues/18)
@@ -50,7 +50,8 @@
 - 6.2 日期和时间
 - 6.3 数字和数学计算
 - 6.4 文件和目录访问
-- 6.5 常用的第三方库
+- [6.4 XML 和 HTML 解析](https://github.com/ShannonChenCHN/APythonTour/issues/21)
+- 6.6 常用的第三方库
   - Pillow
   - requests
   - SQLAlchemy
