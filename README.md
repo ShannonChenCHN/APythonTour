@@ -92,3 +92,4 @@
 - [路人甲python总结](https://github.com/ShannonChenCHN/APythonTour/blob/master/%E8%B7%AF%E4%BA%BA%E7%94%B2python%E6%80%BB%E7%BB%93.docx)
 - [Python 官方文档](https://docs.python.org/3/)
 - 零基础学 Python 的目录（来自极客时间专栏）
+- [Python进阶（中译本）](https://legacy.gitbook.com/book/eastlakeside/interpy-zh/details)
