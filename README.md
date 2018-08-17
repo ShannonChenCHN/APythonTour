@@ -13,6 +13,7 @@
 - Python 官方文档及相关学习资料
 
 ### [二、环境搭建](https://github.com/ShannonChenCHN/APythonTour/issues/2)
+- 运行 Python 的几种方式
 - 安装 Python3 解释器
   - 相关问题：如何升级 Mac 上的 Python 到最新
 - 安装 IDE
