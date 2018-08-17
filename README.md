@@ -16,6 +16,7 @@
 - 安装 Python3 解释器
   - 相关问题：如何升级 Mac 上的 Python 到最新
 - 安装 IDE
+- virtualenv
 
 ### 三、Python 基础语法
 - [3.1 Hello World ](https://github.com/ShannonChenCHN/APythonTour/issues/7)
