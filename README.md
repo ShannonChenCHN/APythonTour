@@ -27,12 +27,13 @@
    - 编码规范
       - [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
 - [3.2 数据类型和变量](https://github.com/ShannonChenCHN/APythonTour/issues/14)
-- [3.3 条件和循环](https://github.com/ShannonChenCHN/APythonTour/issues/15)
-- [3.4 函数](https://github.com/ShannonChenCHN/APythonTour/issues/3)
-- [3.5 高级特性](https://github.com/ShannonChenCHN/APythonTour/issues/4)
-- [3.6 函数式编程](https://github.com/ShannonChenCHN/APythonTour/issues/5)
-- [3.7 模块](https://github.com/ShannonChenCHN/APythonTour/issues/6)
-- [3.8 错误处理、调试和测试](https://github.com/ShannonChenCHN/APythonTour/issues/11)
+- [3.3 运算符](https://github.com/ShannonChenCHN/APythonTour/issues/22)
+- [3.4 条件和循环](https://github.com/ShannonChenCHN/APythonTour/issues/15)
+- [3.5 函数](https://github.com/ShannonChenCHN/APythonTour/issues/3)
+- [3.6 高级特性](https://github.com/ShannonChenCHN/APythonTour/issues/4)
+- [3.7 函数式编程](https://github.com/ShannonChenCHN/APythonTour/issues/5)
+- [3.8 模块](https://github.com/ShannonChenCHN/APythonTour/issues/6)
+- [3.9 错误处理、调试和测试](https://github.com/ShannonChenCHN/APythonTour/issues/11)
 
 ### 四、Python 高级编程
 
@@ -52,7 +53,7 @@
 - 6.2 日期和时间
 - 6.3 数字和数学计算
 - 6.4 文件和目录访问
-- [6.4 XML 和 HTML 解析](https://github.com/ShannonChenCHN/APythonTour/issues/21)
+- [6.5 XML 和 HTML 解析](https://github.com/ShannonChenCHN/APythonTour/issues/21)
 - 6.6 常用的第三方库
   - Pillow
   - requests
