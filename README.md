@@ -34,6 +34,7 @@
 - [3.7 函数式编程](https://github.com/ShannonChenCHN/APythonTour/issues/5)
 - [3.8 模块](https://github.com/ShannonChenCHN/APythonTour/issues/6)
 - [3.9 错误处理、调试和测试](https://github.com/ShannonChenCHN/APythonTour/issues/11)
+- [3.10 内置函数](https://github.com/ShannonChenCHN/APythonTour/issues/23)
 
 ### 四、Python 高级编程
 
