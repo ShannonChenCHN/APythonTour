@@ -97,3 +97,4 @@
 - [Python 官方文档](https://docs.python.org/3/)
 - 零基础学 Python 的目录（来自极客时间专栏）
 - [Python进阶（中译本）](https://legacy.gitbook.com/book/eastlakeside/interpy-zh/details)
+- [Tutorials, Python Courses: Online and On Site](https://www.python-course.eu/index.php)：就职于 Saarland University 大学的计算机教授 Bernd Klein 所写的 python3 教程，内容详实、图文并茂。
