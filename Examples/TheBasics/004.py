@@ -5,7 +5,7 @@
 
 # dict
 
-ageOfPeople = {"Paul" : 17, "Chris" : 23, "Mark": 36}
+ageOfPeople = {"Paul": 17, "Chris": 23, "Mark": 36}
 print(ageOfPeople)
 
 ageOfPeople["Chris"] = 24
@@ -16,6 +16,9 @@ print(ageOfPeople.get('Thomas', -1))
 
 ageOfPeople.pop('Paul')
 print(ageOfPeople)
+
+# print(ageOfPeople['John']) # 会报错
+print(ageOfPeople.get('John'))
 
 # set
 

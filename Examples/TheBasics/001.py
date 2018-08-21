@@ -2,8 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # 输入和输出
-print('Please enter your name: ')
-name = input()
+name = input('Please enter your name: ')
 print('hello', name)
 
 
@@ -42,6 +41,13 @@ print(encodedString)
 print(encodedString.decode('utf-8'))
 
 print(len(string))
+x = b'ABC'
+x_1 = 'ABC'.encode('utf-8')
+x_2 = 'ABC'.encode('ascii')
+y = 'ABC'
+z = u'ABC'
+print(x, x.decode('utf-8'), y, z)
+print(len('中文'), len('中文'.encode('utf-8')))
 
 # 格式化
 print('hello, %s, you have $%d.' % ('Michael', 100000))
