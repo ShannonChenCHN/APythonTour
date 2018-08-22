@@ -62,7 +62,7 @@
   - BeautifulSoup
   - Pillow
   
-### 六、Web 开发
+### 六、[Web 开发](https://github.com/ShannonChenCHN/APythonTour/issues/25)
 - HTML、CSS 和 JavaScript
 - WSGI 接口
 - Web 框架的使用
