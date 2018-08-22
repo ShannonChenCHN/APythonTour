@@ -50,16 +50,17 @@
 
 
 ### 六、库（模块）
-- [6.1 正则表达式](https://github.com/ShannonChenCHN/APythonTour/issues/19)
-- 6.2 日期和时间
-- 6.3 数字和数学计算
-- 6.4 文件和目录访问
-- [6.5 XML 和 HTML 解析](https://github.com/ShannonChenCHN/APythonTour/issues/21)
-- [6.6 常用的内置模块](https://github.com/ShannonChenCHN/APythonTour/issues/24)
-- 6.7 常用的第三方库
+- [6.1 常用的内置模块](https://github.com/ShannonChenCHN/APythonTour/issues/24)
+  - [6.1.1 正则表达式](https://github.com/ShannonChenCHN/APythonTour/issues/19)
+  - 6.1.2 日期和时间
+  - 6.1.3 数字和数学计算
+  - 6.1.4 文件和目录访问
+  - [6.1.5 XML 和 HTML 解析](https://github.com/ShannonChenCHN/APythonTour/issues/21)
+- 6.2 常用的第三方库
   - Pillow
   - requests
   - SQLAlchemy
+  - Beautiful
   
 ### 六、Web 开发
 - HTML、CSS 和 JavaScript
