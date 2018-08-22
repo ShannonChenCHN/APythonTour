@@ -57,10 +57,10 @@
   - 6.1.4 文件和目录访问
   - [6.1.5 XML 和 HTML 解析](https://github.com/ShannonChenCHN/APythonTour/issues/21)
 - 6.2 常用的第三方库
-  - Pillow
   - requests
   - SQLAlchemy
-  - Beautiful
+  - BeautifulSoup
+  - Pillow
   
 ### 六、Web 开发
 - HTML、CSS 和 JavaScript
