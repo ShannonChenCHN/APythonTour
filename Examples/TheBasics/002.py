@@ -26,6 +26,9 @@ print(classmates)
 classmates[1] = 'Sarah'
 print(classmates)
 
+n = ['Jane', 'Mac', 'Jason']
+
+print(classmates + n)
 
 
 # Tuple

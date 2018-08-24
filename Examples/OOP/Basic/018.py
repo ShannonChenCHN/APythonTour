@@ -23,6 +23,8 @@ print(type(Animal()))
 print(type(func), type(func) == types.FunctionType)
 print(type(abs), type(abs) == types.BuiltinFunctionType)
 
+print(type(None))
+
 lambdaType = lambda x : x + 1
 print(type(lambdaType), type(lambdaType) == types.LambdaType)
 

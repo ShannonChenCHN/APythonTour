@@ -24,6 +24,7 @@ def now():
 now()
 print(now.__name__)
 
+print('=' * 50)
 
 ## 三层嵌套的decorator
 

@@ -18,6 +18,7 @@ print(next(g))
 for n in g:
     print(n)
 
+print('=' * 50)
 
 # 使用生成器实现一个斐波拉契数列
 def fib(max):
@@ -26,13 +27,15 @@ def fib(max):
         yield b
         a, b = b, a + b
         n = n + 1
+        if n > 2:
+            return
     return 'done'
 
 for i in fib(6):
     print(i)
 
 
-print('===================')
+print('=' * 50)
 
 # 迭代器
 

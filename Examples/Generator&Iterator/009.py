@@ -15,13 +15,13 @@ L3 = [x * x for x in range(1, 11) if x % 2 == 0]
 print(L3)
 
 ## 双循环
-L4 = [m + n for m in 'ABC' for n in 'XYZ']
+L4 = [m + n for m in 'ABC' for n in 'XYZS']
 print(L4)
 
 ## 使用两个变量来生成 list
 d = {'baidu': 'www.baidu.com', 'tencent': 'www.qq.com', 'amazon': 'www.amazon.com'}
-[k + '=' + v for k, v in d.items()]
-print(d)
+d_desc = [k + '=' + v for k, v in d.items()]
+print(d_desc)
 
 L5 = ['Hello', 'World', 'IBM', 'Apple']
 L5_lower = [s.lower() for s in L5]

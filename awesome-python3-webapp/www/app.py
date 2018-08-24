@@ -11,7 +11,7 @@ from aiohttp import web
 
 
 def index(request):
-    return web.Response(body='<h1>This My 1st web project<h1>'.encode('utf-8'), content_type='text/html')
+    return web.Response(body='<h1>This an awesome web project<h1>'.encode('utf-8'), content_type='text/html')
 
 
 def initApp():
@@ -20,4 +20,5 @@ def initApp():
     web.run_app(app)
 
 
-initApp()
+if __name__ == '__main__':
+    initApp()
