@@ -154,7 +154,7 @@ class RequestHandler(object):
                     return web.HTTPBadRequest('Missing argument: %s' % name)
         logging.info('call with args: %s' % str(kw))
 
-        # 根据请求参数返回结果
+        # 根据路由处理函数返回结果
         try:
             r = await self._func(**kw)
             return r

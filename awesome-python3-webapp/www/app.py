@@ -10,6 +10,12 @@ from jinja2 import Environment, FileSystemLoader
 import orm
 from coroweb import add_routes, add_static
 
+from handlers import cookie2user, COOKIE_NAME
+
+# ================================================
+#                     jinja
+# ================================================
+
 def init_jinja2(app, **kw):
     logging.info('init jinja2...')
     options = dict(
@@ -24,22 +30,49 @@ def init_jinja2(app, **kw):
     if path is None:
         path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
     logging.info('set jinja2 template path: %s' % path)
+
+    # 创建 jinja 环境
     env = Environment(loader=FileSystemLoader(path), **options)
     filters = kw.get('filters', None)
     if filters is not None:
         for name, f in filters.items():
             env.filters[name] = f
+
+    # 关联到 app
     app['__templating__'] = env
 
 
+# ================================================
+#               middlewares
+# ================================================
 async def logger_factory(app, handler):
+    """请求日志"""
     async def logger(request):
         logging.info('Request: %s %s' % (request.method, request.path))
         # await asyncio.sleep(0.3)
         return (await handler(request))
     return logger
 
+@asyncio.coroutine
+def auth_factory(app, handler):
+    """收到请求时，解析 cookie，将用户信息绑定到 request 上"""
+    @asyncio.coroutine
+    def auth(request):
+        logging.info('check user: %s %s' % (request.method, request.path))
+        request.__user__ = None
+        cookie_str = request.cookies.get(COOKIE_NAME)
+        if cookie_str:
+            user = yield from cookie2user(cookie_str)
+            if user:
+                logging.info('set current user: %s' % user.email)
+                request.__user__ = user
+        if request.path.startswith('/manage/') and (request.__user__ is None or not request.__user__.admin):
+            return web.HTTPFound('/signin')
+        return (yield from handler(request))
+    return auth
+
 async def data_factory(app, handler):
+    """将 POST 请求数据绑定到 request 上"""
     async def parse_data(request):
         if request.method == 'POST':
             if request.content_type.startswith('application/json'):
@@ -52,6 +85,7 @@ async def data_factory(app, handler):
     return parse_data
 
 async def response_factory(app, handler):
+    """加工响应结果，并返回最终结果"""
     async def response(request):
         logging.info('Response handler...')
         r = await handler(request)
@@ -71,7 +105,7 @@ async def response_factory(app, handler):
             resp.content_type = 'text/html;charset=utf-8'
             return resp
         if isinstance(r, dict):
-            # 如果是字典，就需要
+            # 如果是字典，就看是不是模板，如果不是模板就返回 JSON，如果是模板就填充数据进行渲染返回 HTML
             template = r.get('__template__')
             if template is None:
                 resp = web.Response(body=json.dumps(r, ensure_ascii=False, default=lambda o: o.__dict__).encode('utf-8'))
@@ -93,6 +127,10 @@ async def response_factory(app, handler):
         return resp
     return response
 
+# ================================================
+#                      helper
+# ================================================
+
 def datetime_filter(t):
     delta = int(time.time() - t)
     if delta < 60:
@@ -106,13 +144,15 @@ def datetime_filter(t):
     dt = datetime.fromtimestamp(t)
     return u'%s年%s月%s日' % (dt.year, dt.month, dt.day)
 
-
+# ================================================
+#               init 函数
+# ================================================
 
 async def init(loop):
     """入口函数"""
     await orm.create_pool(loop=loop, host='127.0.0.1', port=3306, user='root', password='123456', db='awesome')
     app = web.Application(loop=loop, middlewares=[
-        logger_factory, response_factory
+        logger_factory, response_factory, auth_factory
     ])
     init_jinja2(app, filters=dict(datetime=datetime_filter))
     add_routes(app, 'handlers')
