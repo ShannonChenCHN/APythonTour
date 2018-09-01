@@ -94,9 +94,7 @@
 - [Python 的练手项目有哪些值得推荐？](https://www.zhihu.com/question/29372574)
 - [Python教程 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
 - [Python 基础教程 - 菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
-- [简明 Python 教程](https://github.com/ShannonChenCHN/APythonTour/blob/master/byte-of-python-chinese-edition.epub)（A Byte of Python）
 - [路人甲python总结](https://github.com/ShannonChenCHN/APythonTour/blob/master/%E8%B7%AF%E4%BA%BA%E7%94%B2python%E6%80%BB%E7%BB%93.docx)
 - [Python 官方网站](https://docs.python.org/3/)
 - 零基础学 Python 的目录（来自极客时间专栏）
-- [Python进阶（中译本）](https://legacy.gitbook.com/book/eastlakeside/interpy-zh/details)
-- [Tutorials, Python Courses: Online and On Site](https://www.python-course.eu/index.php)：就职于 Saarland University 大学的计算机教授 Bernd Klein 所写的 python3 教程，内容详实、图文并茂。
+
